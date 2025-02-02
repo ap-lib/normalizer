@@ -27,6 +27,7 @@ readonly class ThrowableNormalizer implements Normalizer
     public function normalizeThrowable(Throwable $value, ?int $previous_entries_count = null): array
     {
         $data = [
+            'type'    => $value::class,
             'message' => $value->getMessage(),
             'file'    => $value->getFile(),
             'line'    => $value->getLine(),

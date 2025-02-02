@@ -33,6 +33,7 @@ final class ReadmeTest extends TestCase
                 'message'   => 'some error message',
                 'exception' =>
                     [
+                        'type'    => 'Exception',
                         'message' => 'file not found',
                         // 'file'    => '/code/normalizer/tests/ReadmeTest.php',
                         'line'    => 19,
