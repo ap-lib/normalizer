@@ -1,5 +1,6 @@
 {
   "name": "ap-lib/normalizer",
+  "description": "A library that normalizes some mixed variable to simple types: int, string, array, bool, null",
   "type": "library",
   "homepage": "https://github.com/ap-lib/normalizer",
   "license": "MIT",
