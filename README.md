@@ -38,6 +38,7 @@ var_export($normalizedArray);
     'message'   => 'some error message',
     'exception' =>
         [
+            'type'    => 'Exception',
             'message' => 'file not found',
             'file'    => '/code/path/to/file.php',
             'line'    => 19,
