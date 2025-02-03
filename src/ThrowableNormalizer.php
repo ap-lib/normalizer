@@ -11,8 +11,8 @@ readonly class ThrowableNormalizer implements Normalizer
      * @param int $previous_entries_count Number of previous occurrences to include (integer instead of boolean for recursion protection).
      */
     public function __construct(
-        public bool $include_trace = true,
-        public int  $previous_entries_count = 1,
+        public bool $include_trace = false,
+        public int  $previous_entries_count = 0,
     )
     {
     }
